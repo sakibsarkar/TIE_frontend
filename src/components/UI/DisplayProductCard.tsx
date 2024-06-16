@@ -1,7 +1,7 @@
 import ProductSlider from "../homePage/ProductSlider";
 
 const DisplayProductCards = () => {
-  // fetch different api based on the type
+  // fetch different api based on the type here
 
   return (
     <div className="flex flex-col gap-[80px] w-full">
