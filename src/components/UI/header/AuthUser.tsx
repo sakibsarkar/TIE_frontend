@@ -4,13 +4,13 @@ const AuthUser = () => {
   return (
     <Link
       href={"/"}
-      className="px-[15px] py-[8px] flex items-center justify-between gap-[18px] border-[1px] border-primary relative rounded-[5px] cursor-pointer"
+      className="px-[15px] py-[8px] flex items-center justify-between gap-[18px] border-[1px] border-primary relative rounded-[5px] cursor-pointer bg-primary text-white"
     >
       <FaRegUser />
 
       <span className="flex flex-col justify-start items-start gap-[0px]">
         <span className="text-[12px] font-[600]">Account</span>
-        <span className="text-[10px] text-[#3f3f3f]">Signin</span>
+        <span className="text-[10px] text-[#ececec]">Signin</span>
       </span>
     </Link>
   );

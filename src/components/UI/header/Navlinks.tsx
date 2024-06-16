@@ -11,7 +11,7 @@ const Navlinks = () => {
           key={i + "navlink"}
           className={`${
             path === href ? "bg-black text-white" : ""
-          } px-[20px] pt-[5px] rounded-t-[5px]`}
+          } px-[20px] pt-[5px] rounded-t-[5px] h-[45px] center`}
         >
           <Link href={href} className="relative top-[-3px]">
             {text}
