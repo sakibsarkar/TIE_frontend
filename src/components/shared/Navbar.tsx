@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`sticky top-0 left-0 w-full pt-[15px] overflow-hidden ${open_sans.className}`}
+      className={`sticky top-0 left-0 w-full pt-[15px] overflow-hidden bg-white z-[99] ${open_sans.className}`}
       style={{ boxShadow: shadow }}
     >
       <div className="w-full flex justify-between items-center layoutContainer">

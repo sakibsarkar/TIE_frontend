@@ -11,3 +11,36 @@
     @apply mx-auto max-w-[1600px];
   }
 }
+
+.hero {
+  background-image: url("/images/bg_leo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btnUnderLine {
+  position: relative;
+  width: fit-content;
+}
+
+.btnUnderLine::after {
+  content: "";
+  width: calc(100% + 10px);
+  background: white;
+  height: 1.5px;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+.head_promo {
+  background-image: url("/images/add_shoe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.side_promo {
+  background-image: url("/images/add_cloth.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

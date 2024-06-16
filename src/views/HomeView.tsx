@@ -1,11 +1,13 @@
-import React from 'react';
+import Hero from "@/components/homePage/Hero";
+import Promotion from "@/components/homePage/Prmotion";
 
 const HomeView = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <>
+      <Hero />
+      <Promotion />
+    </>
+  );
 };
 
 export default HomeView;
