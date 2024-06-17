@@ -8,7 +8,7 @@
   }
 
   .layoutContainer {
-    @apply mx-auto max-w-[1600px];
+    @apply mx-auto max-w-[1600px] px-[15px] sm:px-[20px] lg:px-[25px] 2xl:px-[10px];
   }
 }
 
@@ -48,4 +48,24 @@
 .noScrollBar::-webkit-scrollbar {
   width: 0 !important;
   height: 0 !important;
+}
+
+
+.magnifyImageContainer {
+  width: 746px;
+  height: 479px;
+  object-fit: cover;
+  overflow: hidden;
+
+}
+
+.magnifyImageContainer>div {
+  width: 100%;
+  height: 100%;
+}
+
+.magnifyImageContainer>div>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
